@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TEST</title>
+    <style type="text/css" media="screen">
+      body {
+      margin: 0px;
+      overflow: hidden;
+      }
+      video,#back-canvas {
+      display: none;
+      }
+      canvas {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <video id='video' src='mov_bbb.mp4' autoplay loop></video>
+    <div id='main'>
+      <canvas id='back-canvas' width='640', height='480'></canvas>
+      <canvas id='front-canvas' width='640', height='480'></canvas>
+    </div>
+    <script src="components/lge88-three-build/three.js"></script>
+    <script src="dat.gui.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

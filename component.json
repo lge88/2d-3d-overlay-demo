@@ -1,0 +1,6 @@
+{
+  "name": "2d-3d-overlay-demo",
+  "dependencies": {
+    "lge88/three-build": "*"
+  }
+}

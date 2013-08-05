@@ -1,0 +1,8 @@
+{
+  "name": "2d-3d-overlay-demo",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "*"
+  },
+  "main": "static.js"
+}
